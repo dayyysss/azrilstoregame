@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+
+body {
+	background-color: #EAEAEA;
+	font-family: 'Poppins', sans-serif;
+	color: #2D2D2D;
+	font-size: 14px;
+}
+
+    /* Awal Navbar */
+.form-control {
+	font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+.form-control {
+	width: 350px;
+}
+}
+
+@media screen and (max-width: 994px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	}
+    /* Akhir Navbar */
+
+	/* Row Keranjang */
+.row-produk {
+	background-color: #fff;
+	margin: 0;
+	padding: 5px;
+	padding-top: 16px;
+}
+	/* Akhir Row Keranjang */
+
+	/* Gambar */
+.img-keranjang {
+	width: 70px;
+}
+	/* Akhir Gambar */
+
+	/* Table Header */
+.th-header {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+	/* Table Header */
+
+
+	/* Responsive Checkout */
+@media only screen and (min-width: 768px) {
+	#table-checkout {
+		width: 40%;
+	}
+}
+	/* Responsive Checkout */
+

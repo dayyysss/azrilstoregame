@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+
+body {
+	background-color: #EAEAEA;
+	font-family: 'Poppins', sans-serif;
+	color: #2D2D2D;
+	font-size: 14px;
+}
+
+    /* Awal Navbar */
+.form-control {
+	font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+.form-control {
+	width: 350px;
+}
+}
+
+@media screen and (max-width: 994px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	}
+    /* Akhir Navbar */
+
+     /* Gambar Produk */
+.row-produk {
+    background-color: #fff;
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+     /* Akhir Gambar Produk */
+
+     /* Garis Nama */ 
+.garis-nama {
+    border-bottom: 2px solid #2D2D2D;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+    /* Akhir Garis Nama */
+
+    /* Button Keranjang  Dan Beli*/
+.btn-custom {
+    padding: 15px;
+    font-size: 14px;
+}
+    /* Akhir Button Keranjang  Dan Beli*/
+
+    /* Deskripsi dan Review Produk*/
+.review-img {
+    width: 50px;
+}
+
+.review-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.review-desc {
+    font-size: 14px;
+}
+
+.deskripsi {
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.deskripsi::-webkit-scrollbar {
+    display: none;
+}
+
+.review {
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+}  
+    /* Deskripsi dan Review Produk*/

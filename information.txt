@@ -1,0 +1,73 @@
+Uji Level => WEBSITE/APLIKASI KEBUTUHAN GAME DLL
+
+Deskripsi : 
+	Azril storegame adalah sebuah toko/website yang menjual kebutuhan seperti top up, akun game online, joki, dll. Jika ada
+yang ada membeli produk, bisa langsung hubungi penjual tersebut dengan cara chat.
+
+
+Frontend / Tampilan		: HTML, CSS
+Backend / Bahasa Pemrograman	: PHP
+Database			: MYSQL
+Web Server			: XAMPP 3.3
+
+User Pengguna
+1. Calon Pembeli
+2. Penjual / Admin
+
+Struktur Database
+
+db_azrilstore
+
+# tb_admin
+=====================================================
+1. admin_id		| int (11) primary key auto increment
+2. admin_name		| varchar (50)
+3. username		| varchar (50)
+4. password		| varchar (100)
+5. admin_telp		| varchar (20)
+6. admin_email		| varchar (50)
+7. admin_address	| text
+
+# tb_category
+=====================================================
+1. category_id		| int (11) primary key auto increment
+2. category_name	| varchar (25)
+
+# tb_product
+=====================================================
+1. product_id		| int (11) primary key auto increment
+2. category_id		| int (11) foreign key
+3. product_name		| varchar (100)
+4. product_price	| int (11)
+5. product_description	| text
+6. product_image	| varchar (100)
+7. product_status	| tinyint (1)
+8. date_created		| timestamp
+
+Halaman Akses
+1. Admin 		: - Login
+			  - Dashboard 
+			  - Profil (update)
+			  - Data kategori (create, read, update, delete)
+			  - Data Produk (create, read, update, delete)
+
+2. Calon Pembeli	: - Beranda
+			  - Produk
+			  - Detail Produk 
+			  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "ElMessiri-SemiBold";
+    src: url("../fonts/el_messiri/ElMessiri-SemiBold.ttf"); }
+  @font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf"); }
+  @font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("../fonts/montserrat/Montserrat-SemiBold.ttf"); }
+
+body ,html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    height: 100%;
+    background-image: url('../assets/background.jpg');
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-form {
+    height: 500px;
+    width: 430px;
+    padding: 0 35px;
+    background: linear-gradient(to right, #1cb5e0, #000428);
+    border: none;
+}
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 20px;
+    border: 2px solid rgb(224, 224, 224);
+}
+
+.btn-login {
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: #007bff;
+}
+
+.link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #000428;
+    text-decoration: none;
+}
+
+.btn-gmail {
+    height: 35px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.img-google {
+    height: 20px;
+    width: 20px;
+}
+

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
+body {
+	background-color: #EAEAEA;
+	font-family: 'Poppins', sans-serif;
+	color: #2D2D2D;
+	font-size: 14px;
+}
+
+.form-control {
+	font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+.form-control {
+	width: 350px;
+}
+}
+
+@media screen and (max-width: 994px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	}
+
+.bg-custom {
+	background-color: #6DA9E4;
+}
+
+	/* Style Kategori */
+.img-categori {
+	width: 30%;
+}
+
+.img-categori:hover {
+	transform: scale(1.2);
+	transition: 0.2s;
+}
+
+.row-container {
+	background-color: #fff;
+	margin: 0px;
+}
+	/* Style Akhir Kategori */
+
+
+	/* Style Produk */
+.card:hover {
+	border: 1px solid #2d2d2d;
+}
+	/* Style Akhir Kategori */
